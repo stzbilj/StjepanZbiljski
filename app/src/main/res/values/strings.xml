@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PonovljeniKolokvij</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="najpla_eniji_djelatnik">Najplaćeniji djelatnik</string>
+    <string name="id_za_brisanje">ID za brisanje</string>
+    <string name="obri_i_radnika">Obriši radnika</string>
+    <string name="obri_i_radno_mjesto">Obriši radno mjesto</string>
+    <string name="tx1">Zaposlenici</string>
+    <string name="tx2">Radno mjesto</string>
+    <string name="error_text">Nema zaposlenika</string>
+</resources>

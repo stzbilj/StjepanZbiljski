@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="hr.math.web.ponovljenikolokvij.MainActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_service"
+            android:id="@+id/btnStartService"
+            android:onClick="startService"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_service"
+            android:id="@+id/btnStopService"
+            android:onClick="stopService"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/najpla_eniji_djelatnik"
+            android:id="@+id/salary"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/id_za_brisanje"
+            android:id="@+id/delete_id"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obri_i_radnika"
+            android:id="@+id/delete_worker"
+            android:onClick="deleteWorker"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obri_i_radno_mjesto"
+            android:id="@+id/delete_workstation"
+            android:onClick="deleteWorkStation"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/printLayout">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
